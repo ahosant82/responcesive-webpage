@@ -1,0 +1,189 @@
+@media screen and (max-width: 768px){
+	header{
+		padding: 1rem 2rem;
+	}
+	
+	.logo{
+		margin-left: 1rem;
+	}
+	.checkbtn{
+		display: block;
+	}
+
+	.nevigestion{
+		margin-right: 1rem;
+	}
+
+	.nevigestion ul{
+		position: fixed;
+		top: 50px;
+		left: -200%;
+		width: 100%;
+		display: block;
+		height: 100vh;
+		background-color: bisque;
+		padding: 0;
+		margin: 0;
+		padding-top: 40px;
+		transition: 1s;
+	}
+
+	.nevigestion ul li{
+		list-style: none;
+		padding: 1rem 0;
+		border: 1px solid #fff;
+		padding-left: 60px;
+	}
+
+	.nevigestion ul li:first-child{
+		border-top: none;
+	}
+
+	.nevigestion ul li:last-child{
+		border-bottom: none;
+	}
+
+	.nevigestion ul li a{
+		font-size: 18px;
+		text-decoration: none;
+	}
+
+	.nevigestion ul li:hover{
+		background-color: cornsilk;
+		transition: 1s;
+	}
+	#check:checked ~ ul{
+		left: 0;
+		transition: all .5s;
+	}
+
+	.about-section{
+		padding: 0 2rem;
+	}
+	.about-section .contnet {
+		padding: 1rem 0;
+	}
+
+	/* featuer section */
+
+	.our-Features {
+		display: block;
+		
+	}
+
+	.our-Features .left-side {
+		width: 85%;
+		padding: 2rem;
+	}
+
+	.featuer-item{
+	}
+
+	.our-Features .right-side {
+		width: 100%;
+	}
+	.our-Features .right-side img{
+		width: 100%;
+	}
+
+	.our-Features .featuers-btn {
+		margin-top: -50px;
+		text-align: center;
+		margin-left: 1rem;
+	}
+
+	/* featers */
+
+	.our-works {
+		padding: 2rem;
+	}
+
+	.our-works .title article {
+		width: 60%;
+		color: #727272;
+		word-spacing: 2px;
+		font-size: 12px;
+		margin-left: 0;
+	}
+
+	/* clints */
+	.our-clints .title article {
+		width: 60%;
+		color: #727272;
+		word-spacing: 2px;
+		font-size: 12px;
+		text-align: center;
+		margin: 1rem auto;
+	}
+
+	
+	/* footer */
+	footer{
+		padding: 2rem 2rem;
+	}
+	.copyright{
+		background: #FFF4E7;
+		color: #727272;
+		font-family: 'Work Sans', sans-serif;
+		font-weight: 200;
+		padding: 1.3rem 2rem;
+		text-align: center;
+	}
+	
+}
+
+@media screen and (max-width: 560px){
+	header{
+		padding: 1rem;
+	}
+	.bannar-title{
+		width: 90%;
+	}
+
+	.bannar-title .tlt {
+		font-size: 16px;
+		font-family: 'Work Sans', sans-serif;
+		font-weight: bold;
+	}
+
+	.sub-tlt {
+		color: #727272;
+		padding-bottom: 2rem;
+		font-size: 12px;
+	}
+
+	.bannar {
+		padding: 1rem 0;
+		text-align: center;
+	}
+
+	.about-section {
+		display: block;
+		padding: 1.5rem;
+	}
+
+	.about-section > div {
+		width: 100%;
+	}
+
+	.about-section .gellary img {
+		width: 100%;
+		padding: 0.5rem;
+	}
+
+	.about-section .contnet {
+		padding: 1rem 0;
+	}
+
+	.contnet article {
+		padding: 1rem 0;
+		font-size: 12px;
+		width: 100%;
+		color: #727272;
+	}
+
+	.our-Features .left-side {
+		width: 80%;
+		padding: 1.3rem;
+	}
+}
